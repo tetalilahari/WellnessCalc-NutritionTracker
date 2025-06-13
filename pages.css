@@ -1,0 +1,92 @@
+.page-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px 25px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.page-container h1 {
+  margin-bottom: 20px;
+  color: #2196f3;
+  font-weight: 700;
+  text-align: center;
+}
+
+.page-container p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+.page-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 1.05rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0b79d0;
+}
+
+.thank-you-message {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #4caf50;
+}
+
+.logout-button {
+  margin-top: 25px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}

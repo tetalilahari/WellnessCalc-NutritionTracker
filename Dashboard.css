@@ -1,0 +1,57 @@
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.tabs button {
+  padding: 10px 20px;
+  background-color: #f0f4f8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tabs button.active {
+  background-color: #4fc3f7;
+  color: white;
+}
+.tab-content {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+.dashboard .tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dashboard .tabs button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: linear-gradient(to right, #e0eafc, #cfdef3);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.dashboard .tabs button.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.dashboard .tabs .logout-btn {
+  margin-left: auto; /* pushes logout button to right */
+  background-color: #f44336;
+  color: white;
+  font-weight: 600;
+}
+
+.tab-content {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: linear-gradient(to right, #e0eafc, #cfdef3);
+}
