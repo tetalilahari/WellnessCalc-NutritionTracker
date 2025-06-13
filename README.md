@@ -1,4 +1,4 @@
-# WellnessCalc-NutritionTracker
+# WellnessCalc-NutritionTracker(MERN Stack)
 Here’s a clean and professional **description** you can use for your **WellnessCalc** GitHub repository:
 
 ---
